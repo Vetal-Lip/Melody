@@ -249,3 +249,75 @@ path.current-floor {
   border: none;
   background-color: #fff;
 }
+
+.footer {
+  background-color: #d7d7d7;
+  padding-top: 50px;
+  padding-bottom: 56px;
+}
+
+.footer-container {
+  display: flex;
+  max-width: 1280px;
+  margin: auto;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+.footer-contacts {
+  margin-left: 37px;
+}
+
+.footer-contacts-text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #635854;
+}
+
+.footer-contacts-phone {
+  font-weight: bold;
+  font-size: 17px;
+  line-height: 20px;
+  color: #635854;
+  text-decoration: none;
+}
+
+.footer-social {
+  margin-left: 59px;
+}
+
+.footer-link {
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.footer-link:hover svg path {
+  fill: #3596f5;
+  transition: 0.2s;
+}
+
+.footer-link:first-child() {
+  margin-left: 0;
+}
+
+.footer-navbar-menu {
+  display: flex;
+}
+
+.footer-navbar-item {
+  margin-left: 20px;
+}
+
+.footer-navbar-link {
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #635854;
+}
